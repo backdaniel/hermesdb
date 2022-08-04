@@ -13,7 +13,7 @@ One entry per line (3 parts separated by ascii space)
 - nonce: 32 chars (ascii 32-126)
 
 ## Rules
-- Max 16 entries per term, only one entry per `term`/`definition` pair
+- Max 16 entries per term, only one entry per `term/definition` pair
 - Order follows `term` (ascii ascending), priority (descending), `definition` (ascii ascending)
 - Verification is done by hashing `term definition nonce`
 - Priority is determined by difficulty (start of hash with most zero bits)
