@@ -1,6 +1,6 @@
-# Distributed PoW Dictionary Protocol
+# Distributed PoW dictionary protocol
 
-Designed to become the only source of truth in the universe.
+Designed to become the single source of truth in the universe.
 
 Respects the memetic nature of language.
 
