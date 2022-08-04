@@ -2,9 +2,9 @@
 
 Designed to become the single source of truth in the universe.
 
-Respects the memetic nature of language.
+Respects the memetic nature of language with incentives for bottom-up emergence.
 
-Proof of work prevents spam and solves priority.
+Proof of work prevents spam and solves priority allocation.
 
 ## Format
 One entry per line (3 parts separated by ascii space)
