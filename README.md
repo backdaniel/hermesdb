@@ -16,9 +16,6 @@ One entry per line (3 parts separated by ascii space)
 - Min 16 zero bits at start of hash
 - Hashing algorithm: SHA-3 256
 
-## Tools
-You can use the available python scripts to validate new entries, verify an entry difficulty, etc...
-
 ## Contributing
 I will update this instance according to my knowledge.
 
