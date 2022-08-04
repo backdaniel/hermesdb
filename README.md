@@ -13,6 +13,7 @@ One entry per line (separated by ascii space)
 ## Rules
 - Order of importance is defined by difficulty (starting of hash with most zero bits)
 - Max 16 entries per term
+- Needs at least 8 zero bits
 
 ## Contributing
 I will update this instance according to my knowledge.
