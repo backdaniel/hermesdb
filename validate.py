@@ -9,10 +9,10 @@ definition = definition.ljust(128, ' ')[:128]
 
 while True:
 	nonce = ''.join(random.choices(string.printable[:95], k=32))
-	parts = term + ' ' + definition + ' ' + nonce
-	result = hashlib.sha3_256(parts.encode()).hexdigest()
+	entry = term + ' ' + definition + ' ' + nonce
+	result = hashlib.sha3_256(entry.encode()).hexdigest()
 	binary = str(bin(int(result, 16)))[2:].rjust(256, '0')
 	print(binary[:difficulty])
 	if not '1' in binary[:difficulty]:
-		print(parts)
+		print(entry)
 		break
