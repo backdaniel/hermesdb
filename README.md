@@ -1,4 +1,4 @@
-# term-database
+# meaning-database
 Distributed dictionary protocol using proof of work for prioritization.
 
 ## Format
