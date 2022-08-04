@@ -2,18 +2,19 @@
 Distributed dictionary protocol using proof of work for prioritization.
 
 ## Format
-One entry per line (4 parts separated by ascii space)
+One entry per line (3 parts separated by ascii space)
 
-`term definition nonce hash`
+`term definition nonce`
 - term: 16 chars (ascii 32-126)
-- definition: 64 chars (ascii 32-126)
+- definition: 256 chars (ascii 32-126)
 - nonce: 16 chars (ascii 32-126)
-- hash: SHA-3 256 of `term definition nonce` (hexadecimal)
 
 ## Rules
-- Importance is determined by difficulty (starting of hash with most zero bits)
 - Max 16 entries per term
-- Min 8 zero bits at start of hash
+- Verification is done by hashing `term definition nonce`
+- Importance is determined by difficulty (start of hash with most zero bits)
+- Min 16 zero bits at start of hash
+- Hashing algorithm: SHA-3 256
 
 ## Contributing
 I will update this instance according to my knowledge.
