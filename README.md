@@ -15,7 +15,7 @@ One entry per line (3 parts separated by ascii space)
 ## Rules
 - Max 16 entries per term
 - Verification is done by hashing `term definition nonce`
-- Importance is determined by difficulty (start of hash with most zero bits)
+- Priority is determined by difficulty (start of hash with most zero bits)
 - Min 16 zero bits at start of hash
 - Hashing algorithm: SHA-3 512
 
