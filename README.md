@@ -1,14 +1,14 @@
-# meaning-database
+# term-database
 Distributed dictionary protocol using proof of work for prioritization.
 
 ## Format
 One entry per line (4 parts separated by ascii space)
 
-`term description nonce hash`
+`term definition nonce hash`
 - term: 16 chars (ascii 32-126)
-- description: 64 chars (ascii 32-126)
+- definition: 64 chars (ascii 32-126)
 - nonce: 16 chars (ascii 32-126)
-- hash: SHA-3 of `term description nonce` (hexadecimal)
+- hash: SHA-3 of `term definition nonce` (hexadecimal)
 
 ## Rules
 - Importance is determined by difficulty (starting of hash with most zero bits)
