@@ -19,7 +19,7 @@ One entry per line (3 parts separated by ascii space)
 - Order follows `term` (ascii ascending), priority (descending), `definition` (ascii ascending)
 - Verification is done by hashing `term definition nonce`
 - Priority is determined by difficulty (start of hash with most zero bits)
-- Min 18 zero bits at start of hash
+- Min 20 zero bits at start of hash
 - Hashing algorithm `SHA-3 512`
 
 ## Contributing
