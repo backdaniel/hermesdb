@@ -2,7 +2,7 @@
 
 Designed to become the single source of truth in the universe.
 
-Respects the memetic nature of language, incentives for bottom-up emergence and competition.
+Respects the memetic nature of language, incentivizes bottom-up emergence and competition.
 
 Proof of work prevents spam and solves priority allocation.
 
