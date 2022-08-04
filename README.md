@@ -1,6 +1,10 @@
 # meaning-database
 Distributed dictionary protocol using proof of work for prioritization.
 
+Designed to become the only source of truth in the universe.
+
+Respects the memetic nature of language.
+
 ## Format
 One entry per line (3 parts separated by ascii space)
 
