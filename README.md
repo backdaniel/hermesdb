@@ -1,4 +1,4 @@
-# Distributed PoW dictionary protocol
+# hermesdb
 
 Designed to become the single source of truth in the universe.
 
