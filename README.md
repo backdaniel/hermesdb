@@ -2,7 +2,7 @@
 Distributed dictionary protocol using proof of work for prioritization.
 
 ## Format
-One entry per line (separated by ascii space)
+One entry per line (parts separated by ascii space)
 
 `term description nonce hash`
 - term: 16 chars (ascii 32-126)
