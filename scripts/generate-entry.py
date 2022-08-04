@@ -2,7 +2,7 @@ import random, string, hashlib
 
 term = 'example'
 definition = 'a thing characteristic of its kind or illustrating a general rule'
-difficulty = 18
+difficulty = 20
 
 term = term.ljust(16, ' ')[:16]
 definition = definition.ljust(108, ' ')[:108]
