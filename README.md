@@ -1,4 +1,4 @@
-# Distributed dictionary protocol using proof of work for prioritization
+# Distributed dictionary protocol using PoW
 
 Designed to become the only source of truth in the universe.
 
