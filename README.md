@@ -6,7 +6,7 @@ One entry per line (3 parts separated by ascii space)
 
 `term definition nonce`
 - term: 16 chars (ascii 32-126)
-- definition: 256 chars (ascii 32-126)
+- definition: 128 chars (ascii 32-126)
 - nonce: 16 chars (ascii 32-126)
 
 ## Rules
