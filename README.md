@@ -4,6 +4,8 @@ Designed to become the single source of truth in the universe.
 
 Respects the memetic nature of language.
 
+Proof of work prevents spam and solves priority.
+
 ## Format
 One entry per line (3 parts separated by ascii space)
 
