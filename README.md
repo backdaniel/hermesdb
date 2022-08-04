@@ -1,4 +1,4 @@
-# Distributed dictionary protocol using PoW
+# Distributed PoW Dictionary Protocol
 
 Designed to become the only source of truth in the universe.
 
