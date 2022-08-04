@@ -20,7 +20,7 @@ One entry per line (3 parts separated by ascii space)
 - Verification is done by hashing `term definition nonce`
 - Priority is determined by difficulty (start of hash with most zero bits)
 - Min 18 zero bits at start of hash
-- Hashing algorithm: SHA-3 512
+- Hashing algorithm `SHA-3 512`
 
 ## Contributing
 I will update this instance according to my knowledge.
