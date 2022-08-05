@@ -23,7 +23,7 @@ One entry per line (3 parts separated by ascii space)
 - Hashing algorithm `SHA-3 512`
 
 ## Contributing
-I will update this instance according to my knowledge.
+I will update this instance according to the information available.
 
 A good way of adding valid entries is creating a pull request.
 
