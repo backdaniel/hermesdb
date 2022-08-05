@@ -6,6 +6,8 @@ Respects the memetic nature of language, incentivizes bottom-up emergence and co
 
 Proof of work prevents spam and solves priority allocation.
 
+Distributed instances and syncronization create censorship resistence.
+
 ## Format
 One entry per line (3 parts separated by ascii space)
 
