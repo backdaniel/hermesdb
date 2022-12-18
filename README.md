@@ -13,8 +13,8 @@ Distributed instances provide censorship resistence, syncronization is not criti
 Easy to understand, simple to maintain, open standard, human friendly.
 
 ## Rules
-- One entry per line (no identical entries), composed of exactly 159 chars from `ascii 32-126` (inclusive)
-- The database has `max 10_000` entries separated by `newline` (attempts to increase capacity are by default backwards compatible)
+- One entry per line (no identical entries), composed of `max 159` chars from `ascii 32-126` (inclusive)
+- The database has `max 1_000` entries separated by `newline` (attempts to increase capacity are by default backwards compatible)
 - Order follows difficulty (number of consecutive `0` bits at start when hashing the entry) (descending), then `ascii` (ascending)
 - Hashing algorithm is `SHA-3 512` (fork rules and change algorithm if necessary)
 
