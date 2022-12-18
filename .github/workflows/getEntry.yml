@@ -1,0 +1,24 @@
+name: getEntry
+
+on:
+  workflow_dispatch:
+    inputs:
+      entry:
+        description: 'entry'
+        default: 'hello world'
+        required: true
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: execute py script
+      run: |
+        python getEntry.py "${{ github.event.inputs.entry }}"
