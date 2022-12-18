@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: echo entry
-      run: echo "${{ github.event.inputs.entry }}"
     - name: checkout repo content
       uses: actions/checkout@v2
     - name: setup python
@@ -23,4 +21,4 @@ jobs:
         python-version: 3.8
     - name: execute py script
       run: |
-        python getDifficulty.py ${{ github.event.inputs.entry }}
+        python getDifficulty.py "${{ github.event.inputs.entry }}"
